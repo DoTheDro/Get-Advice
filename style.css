@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+}
+
+.custom-con {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.custom-con h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+    line-height: 1.2em;
+    max-height: 240px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-con .advice-btn {
+    border: none;
+    background-color: #93ffff;
+    max-height: 50px;
+    height: 100%;
+    max-width: 200px;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #000000;
+}
+
+.custom-con .advice-btn:focus {
+    outline: none;
+}
