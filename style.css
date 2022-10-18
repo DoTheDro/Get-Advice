@@ -35,6 +35,30 @@ html, body {
     box-shadow: 1px 1px 4px #000000;
 }
 
-.custom-con .advice-btn:focus {
+.custom-con .advice-btn:focus,
+#viewmode-btn:focus {
     outline: none;
+}
+
+#viewmode-btn {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    max-width: 120px;
+    width: 100%;
+    max-height: 40px;
+    height: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.dark-mode {
+    color: #000;
+    background: #FFF;
+}
+
+.light-mode {
+    color: #FFF;
+    background: #000;
 }
